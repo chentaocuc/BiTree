@@ -87,9 +87,9 @@ Status CreateTree(BiTree T){
 		}
 		T->data = ch;	// 生成根节点
 		printf("\n Input LeftChild: ");
-		CreateTree(T->LeftChild);	// 创建孩子
+		CreateTree(T->LeftChild);	// 创建左孩子
 		printf("\n Input RightChild: ");
-		CreateTree(T->RightChild);	// 创建孩子的兄弟
+		CreateTree(T->RightChild);	// 创建右孩子
 	}
 	return OK;
 }
